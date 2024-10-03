@@ -2,7 +2,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
     
     window.addEventListener("resize", function() {
-        alert("La taille compte");
+        alert("Size matters");
     });
 
     
@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", function() {
     if (phoneImage) {
         
         phoneImage.addEventListener("mouseover", function() {
-            alert("Joli, non ?");
+            alert("Pretty, isn't it ?");
         });
     }
 
